@@ -41,6 +41,8 @@ paths:
       requestBody:
         $ref: '#/components/requestBodies/BatchInsuranceHousingFull'
       responses:
+        '200':
+          $ref: '#/components/requestBodies/BatchInsuranceHousingFull'   
         '202':
           $ref: '#/components/responses/AcceptedResponseBatch'
         '400':
